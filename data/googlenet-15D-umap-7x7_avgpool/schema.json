@@ -1,0 +1,177 @@
+{
+  "archIndex": 0,
+  "labels": {
+    "id": "labels-coarse",
+    "shape": 50000
+  },
+  "layers": [
+    {
+      "id": "0-Input",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0
+    },
+    {
+      "id": "1-BasicConv2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.18623307391035682
+    },
+    {
+      "id": "2-MaxPool2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.28413871530446533
+    },
+    {
+      "id": "3-BasicConv2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.31629326650612055
+    },
+    {
+      "id": "4-BasicConv2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.10922601768851405
+    },
+    {
+      "id": "5-MaxPool2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.06710453296709837
+    },
+    {
+      "id": "6-Inception",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.29202011730837824
+    },
+    {
+      "id": "7-Inception",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.24619733542604372
+    },
+    {
+      "id": "8-MaxPool2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.10804006582443416
+    },
+    {
+      "id": "9-Inception",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.17512441495809083
+    },
+    {
+      "id": "10-Inception",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.1369813826039446
+    },
+    {
+      "id": "11-Inception",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.11060779743910333
+    },
+    {
+      "id": "12-Inception",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.1069094582495888
+    },
+    {
+      "id": "13-Inception",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.12716008107759555
+    },
+    {
+      "id": "14-MaxPool2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.12847489365947742
+    },
+    {
+      "id": "15-Inception",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.3823344493217468
+    },
+    {
+      "id": "16-Inception",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.2595189247107704
+    },
+    {
+      "id": "17-AdaptiveAvgPool2d",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.4729088072491487
+    },
+    {
+      "id": "18-Flatten",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.5358781828499635
+    },
+    {
+      "id": "19-Linear",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.3714246805432638
+    },
+    {
+      "id": "20-Softmax",
+      "shape": [
+        50000,
+        15
+      ],
+      "residual": 0.8893437104106148
+    }
+  ]
+}

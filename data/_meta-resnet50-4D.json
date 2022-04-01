@@ -1,0 +1,7 @@
+{
+  "image_url": "data/imagenet-10000.png",
+  "umap_dim": 4,
+  "epoch_arch_to_dir": {
+    "0,0": "resnet50-umap-4D/epoch0/arch0/"
+  }
+}

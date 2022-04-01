@@ -1,0 +1,8 @@
+{
+  "data_shape": [10000,15],
+  "label_text": ["arachnid", "armadillo", "bear", "bird", "bug", "butterfly", "cat", "coral", "crocodile", "crustacean", "dinosaur", "dog", "echinoderms", "ferret", "fish", "flower", "frog", "fruit", "fungus", "hog", "lizard", "marine mammals", "marsupial", "mollusk", "mongoose", "monotreme", "person", "plant", "primate", "rabbit", "rodent", "salamander", "shark", "sloth", "snake", "trilobite", "turtle", "ungulate", "vegetable", "wild cat", "wild dog", "accessory", "aircraft", "ball", "boat", "building", "clothing", "container", "cooking", "decor", "electronics", "fence", "food", "furniture", "hat", "instrument", "lab equipment", "other", "outdoor scene", "paper", "sports equipment", "technology", "tool", "toy", "train", "vehicle", "weapon"],
+  "image_url": "data/imagenet-10000.png",
+  "epoch_arch_to_dir": {
+    "0,0": "resnet50-umap-15D/epoch0/arch0/"
+  }
+}

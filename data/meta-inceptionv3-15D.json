@@ -1,0 +1,14 @@
+{
+  "data_shape": [50000,15],
+  "label_text": ["arachnid", "armadillo", "bear", "bird", "bug", "butterfly", "cat", "coral", "crocodile", "crustacean", "dinosaur", "dog", "echinoderms", "ferret", "fish", "flower", "frog", "fruit", "fungus", "hog", "lizard", "marine mammals", "marsupial", "mollusk", "mongoose", "monotreme", "person", "plant", "primate", "rabbit", "rodent", "salamander", "shark", "sloth", "snake", "trilobite", "turtle", "ungulate", "vegetable", "wild cat", "wild dog", "accessory", "aircraft", "ball", "boat", "building", "clothing", "container", "cooking", "decor", "electronics", "fence", "food", "furniture", "hat", "instrument", "lab equipment", "other", "outdoor scene", "paper", "sports equipment", "technology", "tool", "toy", "train", "vehicle", "weapon"],
+  "image_urls": [
+    "data/images/imagenet-50000-0.png",
+    "data/images/imagenet-50000-1.png",
+    "data/images/imagenet-50000-2.png",
+    "data/images/imagenet-50000-3.png",
+    "data/images/imagenet-50000-4.png"
+  ],
+  "epoch_arch_to_dir": {
+    "0,0": "inceptionv3-umap-51200D-to-15D-50000-maxpool/"
+  }
+}

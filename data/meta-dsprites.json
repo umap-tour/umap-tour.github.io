@@ -1,0 +1,36 @@
+{
+  "data_shape": [50000,5],
+  "attribute_url": "data/dsprites/attributes.csv",
+  "attributes": {
+    "Shape": {
+      "type": "categorical",
+      "order": ["0","1","2"]
+    },
+    "Scale": {
+      "type": "continuous",
+      "extent": [0,5]
+    },
+    "Orientation": {
+      "type": "continuous",
+      "extent": [0, 40]
+    },
+    "Pos X": {
+      "type": "continuous",
+      "extent": [0, 32]
+    },
+    "Pos Y": {
+      "type": "continuous",
+      "extent": [0, 32]
+    }
+  }, 
+  "image_urls": [
+    "data/images/dsprites-0.png",
+    "data/images/dsprites-1.png",
+    "data/images/dsprites-2.png",
+    "data/images/dsprites-3.png",
+    "data/images/dsprites-4.png"
+  ],
+  "epoch_arch_to_dir": {
+    "0,0": "./dsprites/"
+  }
+}

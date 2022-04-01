@@ -1,0 +1,16 @@
+{
+  "data_shape": [63559,15],
+  "label_text": ["ambulance", "amphibian", "beach_wagon", "bicycle-built-for-two", "bobsled", "cab", "convertible", "crane (machine)", "dogsled", "fire_engine", "forklift", "garbage_truck", "go-kart", "golfcart", "grille", "half_track", "harvester", "horse_cart", "jeep", "jinrikisha", "lawn_mower", "limousine", "minibus", "minivan", "Model_T", "moped", "motor_scooter", "mountain_bike", "moving_van", "oxcart", "passenger_car", "pickup", "plow", "police_van", "racer", "recreational_vehicle", "school_bus", "snowmobile", "snowplow", "sports_car", "streetcar", "tank", "thresher", "tow_truck", "tractor", "trailer_truck", "tricycle", "trolleybus", "unicycle"],
+  "image_urls": [
+    "data/images/imagenet-train-vehicle-32-100x100-63559-0.png",
+    "data/images/imagenet-train-vehicle-32-100x100-63559-1.png",
+    "data/images/imagenet-train-vehicle-32-100x100-63559-2.png",
+    "data/images/imagenet-train-vehicle-32-100x100-63559-3.png",
+    "data/images/imagenet-train-vehicle-32-100x100-63559-4.png",
+    "data/images/imagenet-train-vehicle-32-100x100-63559-5.png",
+    "data/images/imagenet-train-vehicle-32-100x100-63559-6.png"
+  ],
+  "epoch_arch_to_dir": {
+    "0,0": "./train-vehicle-googlenet-umap-51200D-to-15D-63559-avgpool/"
+  }
+}
